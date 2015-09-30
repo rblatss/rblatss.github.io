@@ -18,7 +18,7 @@
 /* Body */
 body {
     background: #FDF6E3;
-    color: #8A887B;
+    color: #444;
     font-size: 16px;
     font-family: 'Crimson Text', 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*line-height: 1.429;*/
@@ -34,7 +34,7 @@ code{
     background-color:#f8f8f8;
     font-size:11px;
     font-style:normal;
-    color:#777;
+    color:777;
     -moz-border-radius:7px;
     -webkit-border-radius:7px;
     padding-left:3px;
@@ -168,6 +168,14 @@ aside, nav, article, figure {
 img.right, figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
+
+/* Gradient transparent - color - transparent */
+hr.style-two { 
+  border: 0; height: 1px; 
+  width: 75%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
 /*
 	Header
 *****************/
@@ -181,7 +189,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		font-size: 51px; 
 		line-height: 0;
 		text-align:center;
-		color: #383732;
+		color: #444;
 		display: block;
 		font-weight: normal;
 		margin: 0 0 .4em .2em;
@@ -215,7 +223,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		/*height: 30px;*/
         padding: 5px;
 		text-decoration: none;
-        color: #8A887B;
+        color: #444;
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
